@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>core</groupId>
-	<artifactId>Test</artifactId>
+	<artifactId>Runn</artifactId>
 	<!--  <version>${build.version}</version>  -->
 		<version>1.1</version>
 	<packaging>jar</packaging>
 
-	<name>Title_Validation</name>
+	<name>Runn</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -37,8 +37,9 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>core.App</mainClass>
+							<!-- <mainClass>core.App</mainClass> -->
 							<!-- <mainClass>${mainClass}</mainClass> -->
+							 <mainClass>${mainClass}</mainClass> 
 						</manifest>
 					</archive>
 					<descriptorRefs>
